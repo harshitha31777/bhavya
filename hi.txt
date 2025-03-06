@@ -1,0 +1,10 @@
+ def traveler_decisions(arr):
+    for decision in arr:
+        if decision == 1:
+            print("Right",end=" ")
+        else:
+            print("Forward", end=" ")
+        
+arr = list(map(int, input().split()))
+traveler_decisions(arr)
+Lost traveler
